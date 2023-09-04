@@ -1,0 +1,5 @@
+Find the substr with the minimum possible length from the given string that conatins all the letters of the given target.
+  S = "HGFDSAXZBJKC”
+  target: "akbc"
+
+  ans: "AXZBJKC"
