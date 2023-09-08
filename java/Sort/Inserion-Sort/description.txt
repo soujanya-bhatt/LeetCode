@@ -1,0 +1,20 @@
+Insertion Sort:
+This is a sorting algorithm which involves virtually splitting the array into sorted and unsorted parts.
+The first value from the unsorted portion of the array is picked and "inserted" into the correct position in the sorted array.
+While finding the correct position to insert, we move all the elements greater than the value to be inserted by 1 position.
+
+Time Complexity:
+Worst and Average: O(N^2)
+Best: O(n)
+
+Algorithm:
+
+1. Take an array as the input
+2. Iterate over the elements of the arryay using a for loop till arr.length using the var i and repeat the following steps:
+    1. assign the element arr[i] to a var temp
+    2. assign a var j to i-1
+    3. Repeat the following steps till j>=0 and arr[j]>temp // the value to be inserted "temp" 
+        1. assign arr[j+1] to arr[j] // moving the elements by 1 position
+        2. decrement j
+    4. Assign arr[j+1] to temp //to insert the temp var in the correct position
+3. return/print the sorted array.
