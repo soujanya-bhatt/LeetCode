@@ -1,0 +1,23 @@
+Selection Sort:
+This is a sorting algorithm which involves repetive selection of the smallest/largest value from the unsorted portion of a list and swapping it to the sorted portion of the list.
+
+The worst and average time complexity  for this algorithm is O(n^2)
+
+Doesnot work for very large data structures.
+
+Algorithm:
+
+  1. Take an array/list as the input.
+  2. Initialise variable i to 0 // first index of the list
+  3. Use a while loop to repeat the below steps as long as i<array.length
+      1. Initialise a variable minValue to arr[i] //first element of the unsorted portion.
+      2. Initialise a variable minIndex to i // first index of the unsorted portion.
+      3. Initialise a variable j to i+1
+      4. Use a while loop to repeat the below steps as long as j<array.length
+          1. Check if arr[j]<minValue;
+              1. If yes, assign minValue to arr[j]
+              2. assign minIndex to j
+          2. increment j
+      5. Swap arr[i] and arr[minIndex]
+      6. increment i
+  4. Print/return the sorted array.
