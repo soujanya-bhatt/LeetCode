@@ -5,7 +5,7 @@ public class Sort{
         int arr[] = {4, 10, -1, 3, 100, 23, 41, -120, 45};
         int i = 0;
         
-        while(i<arr.length){
+        while(i<arr.length-1){
             int minValue = arr[i];
             int minIndex = i;
             int j = i+1;
