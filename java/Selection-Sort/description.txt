@@ -3,7 +3,7 @@ This is a sorting algorithm which involves repetive selection of the smallest/la
 
 The worst and average time complexity  for this algorithm is O(n^2)
 
-Doesnot work for very large data structures.
+Not effecient work for very large data structures.
 
 Algorithm:
 
