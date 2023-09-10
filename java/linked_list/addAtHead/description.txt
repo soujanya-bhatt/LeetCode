@@ -1,0 +1,14 @@
+Given the head of the linked list, add the new value to the beginning of the linked list.
+
+Eg: 
+
+Input:
+  LL: 10 20 30 40
+  val: 60
+output:
+  LL: 60 10 20 30 40
+
+Algo:
+  1. Create a new node.
+  2. Assign newNode.next to current head.
+  3. assign head to new Node.
