@@ -1,0 +1,10 @@
+Given the head of the linked list, add the new value in the given index of the linked list.
+
+Eg: 
+
+Input:
+  LL: 10 20 30 40
+  val: 60
+  index: 2
+output:
+  LL: 10 20 60 30 40
