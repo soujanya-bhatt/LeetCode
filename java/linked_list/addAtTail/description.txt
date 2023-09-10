@@ -1,0 +1,16 @@
+Given the head of the linked list, add the new value to the end of the linked list.
+
+Eg: 
+
+Input:
+  LL: 10 20 30 40
+  val: 60
+output:
+  LL: 10 20 30 40 60
+
+Algo:
+  1. Create a new node.
+  2. Check if head is null/ linked list is empty:
+      1. if yes, assign new node to head.
+  3. Else, Iterate over the linked list till head.next!=null
+  4. assign head.next = newnode
