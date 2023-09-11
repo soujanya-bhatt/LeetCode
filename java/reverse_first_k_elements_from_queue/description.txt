@@ -1,0 +1,17 @@
+Given a queue and int K reverse the first k elements from the queue.
+Example:
+  i/p: q = [10, 20, 30, 40, 50]
+        k = 3;
+  o/p: q = [30, 20, 10, 40, 50]
+
+Algorithm:
+  1. create a stack.
+  2. iterate from 1 to K:
+      1. remove the first element of queue
+      2. push the removed element to stack;
+  3. loop till the size of the stack is 0:
+      1. pop the elements of the stack
+      2. offer the elements to queue
+  4. iterate from 1 to q.size()-K:
+      1. remove the elements from the queue
+      2. offer it to the queue
